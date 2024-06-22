@@ -1,0 +1,34 @@
+.user-list {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin-right: 20px;
+    width: 200px;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  .user-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .user-list li {
+    cursor: pointer;
+    padding: 8px;
+  }
+  
+  .user-list li.selected {
+    background-color: #f0f0f0;
+  }
+  
+  .user-list li:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .user-list img {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+  }
+  
